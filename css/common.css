@@ -105,3 +105,43 @@ h1 {
   font-weight: 400;
   letter-spacing: 0.04em;
  }
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 408px;
+  min-height: 256px;
+  padding: 24px;
+ }
+
+ button {
+  border-style: none;
+  display: inline;
+  width: 86px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #4E75FF;
+  margin-top: 8px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+ }
+
+label {
+  color: #2E2F42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+
+input {
+  margin-top: 8px;
+  display: block;
+  margin-bottom: 8px;
+ }
