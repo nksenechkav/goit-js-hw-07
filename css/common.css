@@ -12,3 +12,70 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+#categories {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+}
+
+.item {
+  border-radius: 8px;
+  border-style: none;
+  background: #F6F6FE;
+  max-width: 392px;
+  min-height: 264px;
+  margin-bottom: 24px;
+  color: #2E2F42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+ }
+
+ h2 {
+  color: #2E2F42;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+ }
+
+ ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  max-width: 360px;
+  min-height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin-bottom: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+}
+
+
+.gallery {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+ align-items: flex-start;
+  margin-right: 24px;
+  margin-bottom: 48px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 300px;
+}
