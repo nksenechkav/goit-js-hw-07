@@ -70,9 +70,10 @@ li {
 }
 
 .gallery-item {
- align-items: flex-start;
+  align-items: flex-start;
   margin-right: 24px;
   margin-bottom: 48px;
+  border-style: none;
 }
 
 .gallery-image {
