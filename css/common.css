@@ -64,6 +64,7 @@ li {
 
 .gallery {
   display: flex;
+  max-width: 1440px;
   list-style-type: none;
   flex-direction: row;
   flex-wrap: wrap;
@@ -131,6 +132,10 @@ h1 {
   letter-spacing: 0.04em;
  }
 
+ button:hover {
+  background: #6C8CFF;
+ }
+
 label {
   color: #2E2F42;
   font-family: Montserrat;
@@ -145,3 +150,98 @@ input {
   display: block;
   margin-bottom: 8px;
  }
+
+ .change-color {
+  width: 148px;
+  height: 40px;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4E75FF;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  justify-content: center;
+ }
+
+ .widget {
+  justify-content: center;
+  color: #2E2F42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+ }
+
+#controls {
+   max-width: 486px;
+   height: 104px;
+   padding: 32px;
+   display: flex;
+   flex-wrap: nowrap;
+   gap: 16px;
+   border-radius: 8px;
+   background: #F6F6FE;
+   color: #FFF;
+   font-family: Montserrat;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   letter-spacing: 0.04em;
+   margin-bottom: 16px;
+ }
+
+ [data-create] {
+  display: inline-block;
+  min-width: 120px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4E75FF;
+ }
+
+ [data-create]:hover {
+  background: #6C8CFF;
+ }
+
+ [data-destroy] {
+  display: inline-block;
+  min-width: 120px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #FF4E4E;
+ }
+
+ [data-destroy]:hover {
+  background: #FF7070;
+ }
+
+ #boxes {
+  max-width: 486px;
+  height: 104px;
+  padding: 32px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+  border-radius: 8px;
+  background: #F6F6FE;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
