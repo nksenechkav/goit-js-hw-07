@@ -39,12 +39,12 @@ const createGallery = (images) => {
         image.classList.add('gallery-image');
         li.classList.add('gallery-item');
 
-        li.append(image);
+        li.appendChild(image);
 
-        return li;
+        return li.outerHTML;
     });
 
-    gallery.append(...galleryItems);
+    gallery.insertAdjacentHTML('beforeend', galleryItems.join(''));
 };
 
 createGallery(images);
