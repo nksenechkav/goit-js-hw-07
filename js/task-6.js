@@ -7,8 +7,11 @@ createBtn.addEventListener('click', createBoxes);
 destroyBtn.addEventListener('click', destroyBoxes);
 
 function createBoxes() {
-  const amount = input.value;
+  const amount = parseInt(input.value);
+
   if (amount >= 1 && amount <= 100) {
+    boxesContainer.innerHTML = '';
+
     const boxes = [];
 
     for (let i = 0; i < amount; i++) {
